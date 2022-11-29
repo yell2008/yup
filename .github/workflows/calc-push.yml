@@ -47,4 +47,4 @@ jobs:
             git add dist/calc
             git add build/calc/calc.pkg
             git commit -a -m "Changes pushed by GitHub Actions"
-            git push origin master
+            git push origin main
