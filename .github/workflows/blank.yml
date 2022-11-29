@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Calculator.py,
-          echo TestCalculator6.
+          echo TestCalculator6.py.
