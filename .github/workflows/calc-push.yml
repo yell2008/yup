@@ -35,6 +35,10 @@ jobs:
         run: pip install pyinstaller
       - name: compile to package
         run: pyinstaller calc.py  --noconfirm --onefile --console
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>" 
 
       # commit files
       - name: Commit files
