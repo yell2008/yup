@@ -46,5 +46,5 @@ jobs:
             git add calc.pyc
             git add dist/calc
             git add build/calc/calc.pkg
-            git commit -a -m "Changes pushed by GitHub Actions"
+            git commit -a -m "Push finished"
             git push origin main
